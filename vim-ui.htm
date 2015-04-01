@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vim UI</title>
+
+  <link rel="stylesheet" href="vim-ui.css">
+</head>
+<body>
+  <section class="instructions">
+    <ul class="instructions-items">
+      <li class="instructions-items-item"><em>t</em> toggle background</li>
+      <li class="instructions-items-item"><em>c</em> toggle cursor</li>
+      <li class="instructions-items-item"><em>h</em> move cursor left</li>
+      <li class="instructions-items-item"><em>l</em> move cursor right</li>
+      <li class="instructions-items-item"><em>j</em> move cursor down</li>
+      <li class="instructions-items-item"><em>k</em> move cursor up</li>
+
+      <li class="instructions-items-item"><em>y</em> move cursor up + left</li>
+      <li class="instructions-items-item"><em>u</em> move cursor up + right</li>
+      <li class="instructions-items-item"><em>n</em> move cursor down + left</li>
+      <li class="instructions-items-item"><em>m</em> move cursor down + right</li>
+    </ul>
+  </section>
+  <section class="main-section">
+    <canvas class="main-section-screen js-main-screen" width="800" height="600"></canvas>
+  </section>
+
+  <img class="desktop-background" src="oldschool-desktop.gif"/>
+
+  <script src="keypress-2.1.0.min.js"></script>
+  <script src="vim-ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/*would be in a different file */
+.instructions {
+  margin: 10px 20px;
+  text-align: center;
+}
+  
+  .instructions-items {
+    display: inline-block;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+  }
+
+    .instructions-items-item {
+      text-align: left;
+    }
+
+/* would be in a different file */
+.main-section {
+  text-align: center;
+}
+
+  .main-section-screen {
+    border: 1px solid #000;
+    margin: auto;
+  }
+
+/* would be in a different file */
+.desktop-background {
+  display: none;
+}
